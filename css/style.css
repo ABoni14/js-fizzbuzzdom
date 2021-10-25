@@ -1,0 +1,33 @@
+body {
+  background-color: #083b4c;
+  color: #fff;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  background-color: rgb(33, 63, 65);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+}
+
+.divisibili3{
+  background-color: #0bd6a1;
+}
+
+.divisibili5{
+  background-color: #ffd166;
+}
+
+.divisibiliPerEntrambi{
+  background-color: #f0466f;
+}
+
