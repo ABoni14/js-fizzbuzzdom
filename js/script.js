@@ -9,16 +9,13 @@ for (let i = 1; i <= 100; i++) {
 
    if (!(i % 3) && !(i % 5)) {
       box.classList.add('divisibiliPerEntrambi');
-      box.innerHTML = "";
-      box.append("fizzbuzz");
+      box.innerHTML = "fizzbuzz";
    } else if (!(i % 3)) {
       box.classList.add('divisibili3');
-      box.innerHTML = "";
-      box.append("fizz");
+      box.innerHTML = "fizz";
    } else if (!(i % 5)) {
       box.classList.add('divisibili5');
-      box.innerHTML = "";
-      box.append("buzz");
+      box.innerHTML = "buzz";
    } 
       
    console.log(i);
